@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 import sys
 
 # Affiche chaque argument avec son numéro
