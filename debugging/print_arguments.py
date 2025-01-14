@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys
 
-# Affiche chaque argument avec son numéro
-for i, arg in enumerate(sys.argv):
-    print(f"Argument {i}: {arg}")
+# Parcours des arguments à partir de l'index 1 pour ignorer le nom du fichier
+for arg in sys.argv[1:]:
+    print(arg)
